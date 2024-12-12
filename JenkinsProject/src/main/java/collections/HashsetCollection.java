@@ -12,9 +12,10 @@ public class HashsetCollection {
 		s1.add("Anu");
 		s1.add('b');
 		
-		Set <String> s2=new HashSet <String>();  //generic set
+		Set <String> s2=new HashSet /*<String>*/();  //generic set
 		s2.add("Apple");
 		s2.add("Orange");
+		
 		
 		HashSet s3=new HashSet();  //nongeneric hashset
 		s1.add(1.5f);

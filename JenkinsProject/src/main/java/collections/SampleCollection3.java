@@ -19,7 +19,7 @@ public class SampleCollection3 {
 		System.out.println(l2.size());
 		System.out.println(l2.contains("Apple"));
 		
-		/*l1.addAll(l2);   //adding all elements into l1
+		l1.addAll(l2);   //adding all elements into l1
 		System.out.println(l1);
 		//l1.removeAll(l2);   
 		//System.out.println(l1);
@@ -30,7 +30,7 @@ public class SampleCollection3 {
 		}
 		
 		i.remove();  //method of iterator, removes last element only
-		System.out.println(l1);*/
+		System.out.println(l1);
 		
 		
 		
